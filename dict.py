@@ -7,11 +7,12 @@ def get_dict():
     phone = input("Enter your phone")
 
     birthday = input("Enter your birthday")
+    
     user = {
     "username": name,
     "email": email,
     "phone":phone ,
-    "birtday": birthday
+    "birthday": birthday
     }
     print(user)
 get_dict()
