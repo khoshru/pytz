@@ -17,7 +17,7 @@ def get_paris_time():
 def show_time():
     paris_dic = get_paris_time()
     tehran_dict = get_tehran_time()
-    return = {paris_dic} | Tehran: {tehran_dict}
+    return = {paris_dic} | Tehran: {tehran_dict} # this is wrong. 
 
 
 if __name__ == '__main__':
