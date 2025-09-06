@@ -17,8 +17,8 @@ def get_paris_time():
 def show_time():
     time_dict = {
 
-     "paris_dict" : get_paris_time(),
-     " tehran_dict":get_tehran_time()
+     "paris" : get_paris_time(),
+     " tehran":get_tehran_time()
     }
     return time_dict
 show_time()  
@@ -26,3 +26,4 @@ show_time()
 
 if __name__ == '__main__':
     app.run(debug=True )
+ 
