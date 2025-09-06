@@ -15,10 +15,14 @@ def get_paris_time():
 
 @app.route("/time")
 def show_time():
-    paris_dic = get_paris_time()
-    tehran_dict = get_tehran_time()
-    result = {"paris" :paris_dic} | {"tehran " :tehran_dict}
-    return result
+    time_dict = {
+
+     "paris_dict" : get_paris_time(),
+     " tehran_dict":get_tehran_time()
+    }
+    return time_dict
+show_time()  
+    
 
 if __name__ == '__main__':
     app.run(debug=True )
