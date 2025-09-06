@@ -11,7 +11,7 @@ def get_dict():
     "username": name,
     "email": email,
     "phone":phone ,
-    "birtday": birthday
+    "birtday": birthday # typo here
     }
     print(user)
 get_dict()
